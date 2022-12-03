@@ -8,3 +8,19 @@ https://my-json-server.typicode.com/
 git init
 git add .
 got commit -m "첫 업로드"
+
+git remote add origin https://github.com/depechedepeche/react_hnm.git
+
+
+netlify.com에 로그인(깃허브로)
+
+혹시 여기서 레포지토리가 하나밖에 안 보일땐 
+깃허브 setting > Applications > Netlify-Configure > Repository access-All repositories
+Repository access  >  All repositories 로 바꿔줌
+
+https://github.com/settings/installations/31169151
+
+build command 에서 바꿔줌!!!!!!!!!!
+CI=false npm run build 
+
+
