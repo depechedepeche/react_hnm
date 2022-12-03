@@ -18,7 +18,7 @@ const ProductAll = () => {
     //원하는 쿼리 값을 읽어 온다/q라고 시작되는 값의 아이템을 가져온다/ 없을땐 빈 스트링
     console.log('쿼리 값은? ', keyword);
     // let url = `http://localhost:5000/products?q=${keyword}`;
-    let url = `https://my-json-server.typicode.com/depechedepeche/react_hnm/products?q=${id}`;
+    let url = `https://my-json-server.typicode.com/depechedepeche/react_hnm/products?q=${keyword}`;
     let response = await fetch(url); //fetch()를 호출하면 브라우저는 네트워크 요청을 보내고 프로미스객체가 반환
     let data = await response.json();
     //console.log(data);
