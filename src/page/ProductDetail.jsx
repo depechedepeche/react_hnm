@@ -21,7 +21,7 @@ const ProductDetail = () => {
 
   const getProductDetail = async () => {
     //let url = `http://localhost:5000/products/${id}`;
-    let url = `https://my-json-server.typicode.com/depechedepeche/react_hnm/products?q=${keyword}`;
+    let url = `https://my-json-server.typicode.com/depechedepeche/react_hnm/products?q=${id}`;
     let response = await fetch(url); //fetch()를 호출하면 브라우저는 네트워크 요청을 보내고 프로미스객체가 반환
     let data = await response.json();
     //console.log("data는? ", data);
