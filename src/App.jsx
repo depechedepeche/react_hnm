@@ -4,11 +4,9 @@
 import React from 'react';
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import ProductAll from './page/ProductAll';
 import Login from './page/Login';
-import ProductDetail from './page/ProductDetail';
-import NotFound from './page/NotFound';
 import Navbar from './components/Navbar';
 import PrivateRoute from './route/PrivateRoute';
 
