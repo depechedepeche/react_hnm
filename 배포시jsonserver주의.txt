@@ -1,0 +1,10 @@
+my json server  검색
+https://my-json-server.typicode.com/
+
+코드를 수정
+ https://my-json-server.typicode.com/<your-username>/<your-repo>
+
+터미널에
+git init
+git add .
+got commit -m "첫 업로드"
